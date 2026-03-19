@@ -1,0 +1,13 @@
+[project]
+name = "cbc-mcp-workshop"
+version = "1.0.0"
+description = "Claude Builder Club MCP Workshop — University of Ghana"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.40.0",
+    "mcp[cli]>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "flask>=3.0.0",
+]
+
+
